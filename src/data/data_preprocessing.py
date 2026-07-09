@@ -14,7 +14,7 @@ from nltk.stem import SnowballStemmer, WordNetLemmatizer
 logger = logging.getLogger("data_preprocessing")
 logger.setLevel(logging.DEBUG)
 
-file_handler = logging.FileHandler('error.log')
+file_handler = logging.FileHandler('errors.log')
 file_handler.setLevel(logging.ERROR)
 
 console_handler = logging.StreamHandler()
